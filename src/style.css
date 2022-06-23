@@ -29,6 +29,7 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     background-color: #212529;
     color: white;
     padding: 25px 60px;
