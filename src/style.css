@@ -111,3 +111,65 @@ a{
 .bi-plus-lg{
     color: green;
 }
+
+/**
+* ! Style rules for label and some buttons
+**/
+.text-center{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.HomeBtn{
+    background-color: #212529;
+    color: white;
+    border: none;
+    padding: 6px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.bi-x-square{
+    color: red;
+    font-weight: bold;
+}
+
+/**
+* ! style rules for shopping cart
+**/
+.shopping-cart{
+    display: grid;
+    grid-template-columns: repeat(1, 320px);
+    justify-content: center;
+    gap: 15px;
+}
+
+/**
+* ! style rules for cart items
+**/
+.cart-item{
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+}
+
+
+.title-price-x{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title-price{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cart-item-price{
+    background-color: #212529;
+    color: white;
+    border-radius: 4px;
+    padding: 3px 6px;
+}
